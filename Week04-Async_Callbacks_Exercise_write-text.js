@@ -8,7 +8,7 @@
 // Step 2. Make the callback return the text with all the letters uppercase. Try it out again.
 // Step 3. Make the callback return the text in reverse and with all the letters uppercase.
 
-const callback = (textValue) => {
+// const callback = (textValue) => {
     // Write your code here!
     
     // Step 1
@@ -19,11 +19,11 @@ const callback = (textValue) => {
     // return textValueUpperCase;
 
     // Step 3
-    var textValueUpperCase = textValue.toUpperCase();
-    var textValueSplit = textValueUpperCase.split("");
-    var textValueReverse = textValueSplit.reverse();
-    var textValueJoin = textValueReverse.join("");
-    return textValueJoin;
-};
+    // var textValueUpperCase = textValue.toUpperCase();
+    // var textValueSplit = textValueUpperCase.split("");
+    // var textValueReverse = textValueSplit.reverse();
+    // var textValueJoin = textValueReverse.join("");
+    // return textValueJoin;
+// };
 
 writeText(callback);
